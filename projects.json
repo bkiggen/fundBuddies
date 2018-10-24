@@ -1,0 +1,59 @@
+{
+  "projects" : {
+    "0" : {
+      "title" : "My Dog Has Fleas!",
+      "dateAdded" : "9/15/2018",
+      "dateEnding" : "10/15/2018",
+      "picture" : "https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg",
+      "currentDonations" : 0,
+      "goal" : 10000,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tulsa, OK",
+      "backerNumber" : 0
+    },
+    "1" : {
+      "title" : "My Dog Needs a Bath!",
+      "dateAdded" : "9/15/2018",
+      "dateEnding" : "10/15/2018",
+      "picture" : "https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg",
+      "currentDonations" : 0,
+      "goal" : 10000,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tulsa, OK",
+      "backerNumber" : 0
+    },
+    "2" : {
+      "title" : "Help My Dog Catch The Mail Truck!",
+      "dateAdded" : "9/15/2018",
+      "dateEnding" : "10/15/2018",
+      "picture" : "https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg",
+      "currentDonations" : 0,
+      "goal" : 10000,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tulsa, OK",
+      "backerNumber" : 0
+    },
+    "3" : {
+      "title" : "Help! My Dog Needs Food But I'm Too Lazy to go to the Pet Store!",
+      "dateAdded" : "9/15/2018",
+      "dateEnding" : "10/15/2018",
+      "picture" : "https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg",
+      "currentDonations" : 0,
+      "goal" : 10000,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tulsa, OK",
+      "backerNumber" : 0
+    },
+    "4" : {
+      "title" : "Bark!",
+      "dateAdded" : "9/15/2018",
+      "dateEnding" : "10/15/2018",
+      "picture" : "https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg",
+      "currentDonations" : 0,
+      "goal" : 10000,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tulsa, OK",
+      "backerNumber" : 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<div *ngFor="let project of projects | async">
+  <div class="panel">
+    <h3 ><em>{{(project | async)?.title}}</em></h3>
+    <h3 class="by">by</h3>
+    <h3>{{(project | async)?.description}}</h3>
+    <div>
+      {{(project | async)?.location}}
+      <!-- <app-edit-album [selectedProject]="album"></app-edit-album> -->
+    </div>
+  </div>
+</div>

@@ -1,3 +1,4 @@
+<button routerLink='admin' type="button" name="button">admin</button>
 <div *ngFor="let project of projects | async">
   <div class="panel">
     <h3 (click)="goToDetailPage(project)" class="project-title"><em>{{project.title}}</em></h3>
@@ -5,7 +6,10 @@
     <h3>{{project.description}}</h3>
     <div>
       {{project.location}}
-      <!-- <app-edit-album [selectedProject]="album"></app-edit-album> -->
     </div>
+    <div *ngIf="currentRoute ==='/admin'">
+    <button>Edit</button>
+    <app-edit-project [selectedProject]="project"></app-edit-project>
+  </div>
   </div>
 </div>

@@ -1,0 +1,49 @@
+<app-project-list></app-project-list>
+<form #newProjectform>
+  <div>
+    <label>Title:</label>
+    <br>
+    <input #newTitle>
+  </div>
+  <div>
+    <label>DateAdded:</label>
+    <br>
+    <input #newDateAdded>
+  </div>
+  <div>
+    <label>DateEnding:</label>
+    <br>
+    <input #newDateEnding>
+  </div>
+  <div>
+    <label>Picture:</label>
+    <br>
+    <input #newPicture>
+  </div>
+  <div>
+    <label> CurrentDonations:</label>
+    <br>
+    <input #newCurrentDonations>
+  </div>
+  <div>
+    <label>Goal:</label>
+    <br>
+    <input #newGoal>
+  </div>
+  <div>
+    <label>Description:</label>
+    <br>
+    <input #newDescription>
+  </div>
+  <div>
+    <label>Location:</label>
+    <br>
+    <input #newLocation>
+  </div>
+  <div>
+    <label>BackerNumber:</label>
+    <br>
+    <input #newBackerNumber>
+  </div>
+  <button (click)="submitForm(newTitle.value, newDateAdded.value, newDateEnding.value, newPicture.value, newCurrentDonations.value, newGoal.value, newDescription.value, newLocation.value, newBackerNumber.value); newProjectform.reset()">Add Project</button>
+</form>

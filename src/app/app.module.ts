@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { routing } from './app.routing';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { AdminComponent } from './admin/admin.component';
+import { EditProjectComponent } from './edit-project/edit-project.component';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 
 
@@ -22,12 +26,14 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     ProjectListComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    AdminComponent,
+    EditProjectComponent
   ],
   imports: [
     BrowserModule,
-    // FormsModule,
-    // HttpModule,
+    FormsModule,
+    HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule

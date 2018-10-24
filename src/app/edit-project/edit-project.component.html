@@ -1,0 +1,38 @@
+<h4>Edit Project</h4>
+
+<label>Project Title:</label>
+<input [(ngModel)]="selectedProject.title">
+<br>
+
+<label>Project Date Added:</label>
+<input [(ngModel)]="selectedProject.dateAdded">
+<br>
+
+<label>Project Date Ending:</label>
+<input [(ngModel)]="selectedProject.dateEnding">
+
+<label>Project Picture URL:</label>
+<input [(ngModel)]="selectedProject.picture">
+<br>
+
+<label>Project Current Donations:</label>
+<input [(ngModel)]="selectedProject.currentDonations">
+<br>
+
+<label>Project Goal:</label>
+<input [(ngModel)]="selectedProject.goal">
+
+<label>Project Description:</label>
+<input [(ngModel)]="selectedProject.description">
+<br>
+
+<label>Project Current Location:</label>
+<input [(ngModel)]="selectedProject.location">
+<br>
+
+<label>Project Number of Backers:</label>
+<input [(ngModel)]="selectedProject.backerNumber">
+
+<button (click)="beginUpdatingProject(selectedProject)">Update</button>
+<hr>
+<button (click)="beginDeletingProject(selectedProject)">Delete</button>

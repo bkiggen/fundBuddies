@@ -17,7 +17,23 @@ export class ProjectService {
     return this.projects;
   }
 
-  getAlbumById(albumId: string) {
-    return this.database.object('projects/');
+  addProject(newProject: Project) {
+    console.log("hello");
+    this.projects.push(newProject);
+  }
+
+  updateProject(localUpdatedProject) {
+    var projectEntryInFirebase = this.getProjectById(localUpdatedProject.$key);
+    projectEntryInFirebase.update({title: localUpdatedProject.title, dateAdded: localUpdatedProject.dateAdded, dateEnding: localUpdatedProject.dateEnding, picture: localUpdatedProject.picture, currentDonations: localUpdatedProject.currentDonations, goal: localUpdatedProject.goal, description: localUpdatedProject.description, location: localUpdatedProject.location, backerNumber: localUpdatedProject.backerNumber });
+    alert("Well done!");
+  }
+
+  getProjectById(projectId: string) {
+    return this.database.object('projects/' + projectId);
+  }
+
+  deleteProject(localProjectToDelete) {
+    var projectEntryInFirebase = this.getProjectById(localProjectToDelete.$key);
+    projectEntryInFirebase.remove();
   }
 }

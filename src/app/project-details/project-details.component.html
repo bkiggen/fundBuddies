@@ -1,1 +1,7 @@
-<!-- <h1>{{projectToDisplay.title}}</h1> -->
+<h1>{{projectToDisplay?.title}}</h1>
+<h2>{{projectToDisplay?.description}}</h2>
+<img src="{{projectToDisplay?.picture}}">
+<h6>{{projectToDisplay?.dateAdded}} to {{projectToDisplay?.dateEnding}}</h6>
+<h6>${{projectToDisplay?.currentDonations}} of ${{projectToDisplay?.goal}}</h6>
+<h6>{{projectToDisplay?.location}}</h6>
+<h6>Backers: {{projectToDisplay?.backerNumber}}</h6>

@@ -10,10 +10,14 @@ export class ProjectService {
 
   constructor(private database: AngularFireDatabase) {
     this.projects = database.list('projects');
+    // console.log(this);
   }
 
   getProjects(){
-    console.log(this);
     return this.projects;
+  }
+
+  getAlbumById(albumId: string) {
+    return this.database.object('projects/');
   }
 }

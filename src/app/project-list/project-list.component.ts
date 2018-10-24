@@ -12,13 +12,18 @@ import { ProjectService } from '../project.service';
 })
 export class ProjectListComponent implements OnInit {
   projects: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
-  constructor() { }
+  constructor(private projectService: ProjectService, private router: Router) { }
 
   ngOnInit() {
     this.projects = this.projectService.getProjects();
   }
 
+  goToDetailPage(clickedProject) {
+    this.router.navigate(['projects', clickedProject.$key]);
+  }
 }
+
 
 // private router: Router, private projectService: ProjectService
